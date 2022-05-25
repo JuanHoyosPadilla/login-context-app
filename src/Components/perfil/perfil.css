@@ -1,0 +1,22 @@
+.container-perfil {
+    background-color: rgba(217, 225, 231, 0.808);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.container-img{
+    width: 70px;
+    height: 70px;
+}
+.container-img img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.container-nombre h4 {
+    font-size: 20px;
+    color: rgba(237, 26, 26, 0.619);
+}

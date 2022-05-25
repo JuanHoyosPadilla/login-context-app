@@ -1,0 +1,61 @@
+.container-login {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-form {
+    background-color: rgba(218, 226, 234, 0.427);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgb(214, 209, 209);
+}
+
+.cart-form .form-input {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.cart-form .form-input input {
+    border: none;
+    outline: none;
+    width: 90%;
+    font-size: 17px;
+    color: rgba(74, 72, 72, 0.53);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.cart-form .form-input span {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.cart-form button {
+    border: none;
+    width: 100px;
+    height: 39px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-form button:hover {
+    background-color: rgba(237, 26, 26, 0.813);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,33 @@
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(213, 219, 224);
+    height: 50px;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    color: rgb(74, 72, 72);
+}
+.logo h1 span {
+    color: rgba(237, 26, 26, 0.813);
+}
+
+
+.login-container .span {
+    padding: 6px;
+    font-size: 20px;
+    color: rgb(74, 72, 72);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login-container .span:hover {
+    background-color:  rgba(237, 26, 26, 0.813);
+    cursor: pointer;
+    color: aliceblue;
+    transition: all 0.3s ease-in-out;
+}
+
